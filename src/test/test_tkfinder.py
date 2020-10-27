@@ -151,7 +151,7 @@ class MyTestCase(unittest.TestCase):
                     "proper_name": "Leroy Smith"
         }
 
-        self.assertEqual("HRM 3,4", tkfinder.get_move(leroy, "HRM 34")["Command"])
+        self.assertEqual("HRM 3, 4", tkfinder.get_move(leroy, "HRM 34")["Command"])
 
 
     def test_ling(self):
