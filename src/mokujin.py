@@ -159,9 +159,12 @@ async def on_message(message):
             if character_name is not None:
                 character = tkfinder.get_character_detail(character_name)
                 move_type = util.get_move_type(original_move.lower())
+                move_frame = util.get_move_frame(original_move.lower())
 
                 if move_type:
                     result = util.display_moves_by_type(character, move_type)
+                elif move_frame:
+                    result = util.display_moves_by_frame(character, move_frame, original_move.lower())
                 else:
                     result = util.display_moves_by_input(character, original_move)
             else:

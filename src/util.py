@@ -31,6 +31,12 @@ def get_move_type(original_move: str):
         if original_move in const.MOVE_TYPES[k]:
             return k
 
+def get_move_frame(definition: str):
+    for k in const.MOVE_FRAMES.keys():
+        for val in const.MOVE_FRAMES[k]:
+            if definition.startswith(val):
+                return k
+
 
 def do_sum(x1, x2):
     return x1 + "\n" + x2
@@ -38,6 +44,24 @@ def do_sum(x1, x2):
 
 def display_moves_by_type(character, move_type):
     move_list = tkfinder.get_by_move_type(character, move_type)
+    result = object
+    if len(move_list) < 1:
+        result = embed.error_embed(
+            'No ' + move_type.lower() + ' for ' + character['proper_name'])
+    elif len(move_list) == 1:
+        character_move = tkfinder.get_move(character, move_list[0])
+        result = embed.move_embed(character, character_move)
+    elif len(move_list) > 1:
+        result = embed.move_list_embed(character, move_list, move_type)
+    return result
+
+def display_moves_by_frame(character, move_type, definition):
+    if len(definition) < 2:
+        result = embed.error_embed(
+            'Specify a ' + move_type.lower() + ' frame for ' + character['proper_name'])
+        return result
+
+    move_list = tkfinder.get_by_move_frame(character, move_type, definition)
     result = object
     if len(move_list) < 1:
         result = embed.error_embed(

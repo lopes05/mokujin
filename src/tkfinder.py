@@ -146,6 +146,29 @@ def get_by_move_type(character: dict, move_type: str) -> list:
     else:
         return []
 
+def get_by_move_frame(character: dict, move_type: str, frames: str) -> list:
+    """Gets a list of moves that match move_frames from local_json
+    returns a list of move Commands if finds match(es), else empty list"""
+
+    move_json = get_character_movelist(character)
+
+    key = ""
+    if move_type == "Startup":
+        key = "Start up frame"
+    else:
+        key = "Block frame"
+
+    moves = list(filter(lambda x: (frames[1:] in x[key].lower()), move_json))
+
+    if moves:
+        move_list = []
+        for move in moves:
+            move_list.append(move['Command'])
+        return list(set(move_list))
+    else:
+        return []
+
+
 
 def is_command_in_alias(command: str, item: dict) -> bool:
     if 'Alias' in item:

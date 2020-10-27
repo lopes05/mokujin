@@ -59,6 +59,11 @@ MOVE_TYPES = {
     "Throw": ["throw", "grab", "throws", "grabs"]
 }
 
+MOVE_FRAMES = {
+    "Startup": ["i",],
+    "Block": ["-",],
+}
+
 REPLACE = {
     ' ': '',
     ',': '',
