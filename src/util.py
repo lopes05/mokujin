@@ -65,7 +65,7 @@ def display_moves_by_frame(character, move_type, definition):
     result = object
     if len(move_list) < 1:
         result = embed.error_embed(
-            'No ' + move_type.lower() + ' for ' + character['proper_name'])
+            'No ' + definition.lower() + ' moves for ' + character['proper_name'])
     elif len(move_list) == 1:
         character_move = tkfinder.get_move(character, move_list[0])
         result = embed.move_embed(character, character_move)

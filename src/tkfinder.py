@@ -155,10 +155,15 @@ def get_by_move_frame(character: dict, move_type: str, frames: str) -> list:
     key = ""
     if move_type == "Startup":
         key = "Start up frame"
+        frames = frames.replace('i', '')
     else:
         key = "Block frame"
+        frames = frames
 
-    moves = list(filter(lambda x: (frames[1:] in x[key].lower()), move_json))
+    moves = list(filter(
+        lambda x: (x[key].lower().startswith(frames) and\
+            (not x[key].lower()[len(frames)].isnumeric() if len(x[key].lower()) > len(frames) else True )
+        ), move_json))
 
     if moves:
         move_list = []
