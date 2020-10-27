@@ -3,3 +3,21 @@
 *.txt
 __pycache__
 nohup.out
+log
+
+# IntelliJ IDEA
+.idea
+*.iml
+target
+venv
+
+# Eclipse
+.project
+.settings
+
+# VS Code
+.vscode
+/tc/
+/log/
+/src/tools/add_moves.py
+/src/tools/get_all_strings.py
