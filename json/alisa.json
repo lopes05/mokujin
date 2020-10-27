@@ -21,9 +21,8 @@
         "Damage": "12,25",
         "Gif": "",
         "Hit frame": "SPD",
-        "Hit level": "m (TJ)m",
-        "Notes": "Rage Drive, Tail Spin",
-        "Start up frame": "16~17,36~37"
+        "Counter hit frame": "SPD",
+        "Notes": "Rage art, Tail spin"
     },
     {
         "Block frame": "+5~+6",

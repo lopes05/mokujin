@@ -28,9 +28,8 @@
         "Damage": "20,10",
         "Gif": "",
         "Hit frame": "KND",
-        "Hit level": "m (TJ)(, (throw))",
-        "Notes": "Rage drive",
-        "Start up frame": "15~18 js7~"
+        "Counter hit frame": "KND",
+        "Notes": "Rage art"
     },
     {
         "Block frame": "-",

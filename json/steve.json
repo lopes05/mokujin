@@ -2389,6 +2389,10 @@
         "Start up frame": "16 (22~)"
     },
     {
+        "Command": "DCK 1+2, 1, 2, 1, 2, 1, 2",
+        "Hit level": "m, m, m, m, m, m, m",
+        "Damage": "3,3,3,3,3,3,3",
+        "Start up frame": "16(22~)",
         "Block frame": "-9",
         "Command": "DCK 1+2,1,2,1,2,1,2",
         "Counter hit frame": "-3",
@@ -2400,6 +2404,10 @@
         "Start up frame": "16 (22~)"
     },
     {
+        "Command": "DCK 1+2, 1, 2, 1, 2, 1, 2, 1",
+        "Hit level": "m, m, m, m, m, m, m, m",
+        "Damage": "3,3,3,3,3,3,3,3",
+        "Start up frame": "16(22~)",
         "Block frame": "-9",
         "Command": "DCK 1+2,1,2,1,2,1,2,1",
         "Counter hit frame": "+2",
@@ -2411,6 +2419,10 @@
         "Start up frame": "16 (22~)"
     },
     {
+        "Command": "DCK 1+2, 1, 2, 1, 2, 1, 2, 1, 2",
+        "Hit level": "m, m, m, m, m, m, m, m, m",
+        "Damage": "3,3,3,3,3,3,3,3,3",
+        "Start up frame": "16(22~)",
         "Block frame": "-10",
         "Command": "DCK 1+2,1,2,1,2,1,2,1,2",
         "Counter hit frame": "-4",
@@ -2422,9 +2434,10 @@
         "Start up frame": "16 (22~)"
     },
     {
-        "Alias": [
-            "gatling"
-        ],
+        "Command": "DCK 1+2, 1, 2, 1, 2, 1, 2, 1, 2, 1",
+        "Hit level": "m, m, m, m, m, m, m, m, m, m",
+        "Damage": "3,3,3,3,3,3,3,3,3,12",
+        "Start up frame": "16(22~)",
         "Block frame": "-12",
         "Command": "DCK 1+2,1,2,1,2,1,2,1,2,1",
         "Counter hit frame": "Launch",

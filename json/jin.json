@@ -138,6 +138,10 @@
         "Start up frame": "10"
     },
     {
+        "Command": "1, 3, 2, 1, 4",
+        "Hit level": "h, h, m, m, l",
+        "Damage": "7,10,10,10,10",
+        "Start up frame": "10",
         "Block frame": "-13~-12",
         "Command": "1,3,2,1,4",
         "Counter hit frame": "+3~+4",
@@ -1154,6 +1158,10 @@
         "Start up frame": "23~25 (24~)"
     },
     {
+        "Command": "f, F+3, 1, 3 , 2, 1",
+        "Hit level": "m, h, h, m, m",
+        "Damage": "20,5,10,1010",
+        "Start up frame": "23~25 (24~)",
         "Block frame": "-7",
         "Command": "f,f+3,1,3,2,1",
         "Counter hit frame": "+7",
@@ -1165,6 +1173,10 @@
         "Start up frame": "23~25 (24~)"
     },
     {
+        "Command": "f, F+3, 1, 3 , 2, 1, 4",
+        "Hit level": "m, h, h, m, m, l",
+        "Damage": "20,5,10,1010,10",
+        "Start up frame": "23~25 (24~)",
         "Block frame": "-13~-12",
         "Command": "f,f+3,1,3,2,1,4",
         "Counter hit frame": "+3~+4",

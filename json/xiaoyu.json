@@ -180,8 +180,12 @@
         "Start up frame": "16~17"
     },
     {
-        "Block frame": "-12~-11",
-        "Command": "f+2,1,4",
+        "Command": "f+2, 1, 4",
+        "Hit level": "m, h, m",
+        "Damage": "12,14,20",
+        "Start up frame": "16~17",
+        "Block frame": "-9~-8",
+        "Hit frame": "KND",
         "Counter hit frame": "Tail spin",
         "Damage": "12,14,20",
         "Gif": "https://gfycat.com/DangerousPlasticAmericanwigeon.gif",
@@ -376,6 +380,90 @@
         "Start up frame": "15~16b"
     },
     {
+        "Command": "d/b+3",
+        "Hit level": "l(!)",
+        "Damage": "0",
+        "Start up frame": "15",
+        "Block frame": "+2",
+        "Hit frame": "+2s",
+        "Counter hit frame": "+12s",
+        "Notes": "-"
+    },
+    {
+        "Command": "d/b+4",
+        "Hit level": "l",
+        "Damage": "14",
+        "Start up frame": "18",
+        "Block frame": "-12",
+        "Hit frame": "+7s",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+1",
+        "Hit level": "m(RDS)",
+        "Damage": "10",
+        "Start up frame": "8~13(b)",
+        "Block frame": "-",
+        "Hit frame": "+1",
+        "Counter hit frame": "+1",
+        "Notes": "-"
+    },
+    {
+        "Command": "B+1",
+        "Hit level": "m",
+        "Damage": "10",
+        "Start up frame": "8~13",
+        "Block frame": "-12~-7",
+        "Hit frame": "-1~+4",
+        "Counter hit frame": "-1~+4",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+2",
+        "Hit level": "m",
+        "Damage": "13",
+        "Start up frame": "15~16b",
+        "Block frame": "-6~-5",
+        "Hit frame": "+5~+6",
+        "Counter hit frame": "+5~+6",
+        "Notes": "Homing"
+    },
+    {
+        "Command": "b+2, 2",
+        "Hit level": "m, l?",
+        "Damage": "13,15",
+        "Start up frame": "15~16b",
+        "Block frame": "-8~-6",
+        "Hit frame": "+3~+5",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+3",
+        "Hit level": "h",
+        "Damage": "22",
+        "Start up frame": "18~19b",
+        "Block frame": "+2~+3",
+        "Hit frame": "+7~+8s",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+4",
+        "Hit level": "m",
+        "Damage": "14",
+        "Start up frame": "13~15",
+        "Block frame": "-11~-9",
+        "Hit frame": "0~+2",
+        "Counter hit frame": "0~+2",
+        "Notes": "-"
+    },
+    {
+        "Command": "b+4, 4",
+        "Hit level": "m, h",
+        "Damage": "14,17",
+        "Start up frame": "13~15",
         "Block frame": "-9~-8",
         "Command": "b+4,4",
         "Counter hit frame": "+14kg",
@@ -698,6 +786,10 @@
         "Start up frame": "14~16 (15~)"
     },
     {
+        "Command": "f, F+3+4",
+        "Hit level": "m (TJ)",
+        "Damage": "25",
+        "Start up frame": "37~45~js9~",
         "Block frame": "-5~+3",
         "Command": "f,f+3+4",
         "Counter hit frame": "KND",
@@ -720,7 +812,26 @@
         "Start up frame": "23~30 (26~) js3~"
     },
     {
-        "Block frame": "-4~-2",
+        "Command": "WS+1",
+        "Hit level": "m",
+        "Damage": "10",
+        "Start up frame": "13~14",
+        "Block frame": "-4~-3",
+        "Hit frame": "+7~+8",
+        "Counter hit frame": "+7~+8",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+1, 4",
+        "Hit level": "m, m",
+        "Damage": "10,20",
+        "Start up frame": "13~14",
+        "Block frame": "-10",
+        "Hit frame": "+12kg",
+        "Counter hit frame": "+12kg",
+        "Notes": "-"
+    },
+    {
         "Command": "WS+2",
         "Counter hit frame": "Launch (JG?)",
         "Damage": "17",
@@ -886,6 +997,10 @@
         "Start up frame": "bs cs1~"
     },
     {
+        "Command": "FC+d/f+4",
+        "Hit level": "l (TC), (AOP)",
+        "Damage": "13",
+        "Start up frame": "18~20 cs1~",
         "Block frame": "-7~-5",
         "Command": "FC d/f+4",
         "Counter hit frame": "+4~+6",
@@ -897,6 +1012,10 @@
         "Start up frame": "18~20 cs1~"
     },
     {
+        "Command": "FC+d/f+4, 4",
+        "Hit level": "l (TC), l (TC)",
+        "Damage": "13,13",
+        "Start up frame": "s cs1~",
         "Block frame": "-6~-4",
         "Command": "FC d/f+4,4",
         "Counter hit frame": "+5~+7",
@@ -1192,9 +1311,18 @@
         "Damage": "9,12,7,7,7",
         "Gif": "",
         "Hit frame": "-2~+4s",
-        "Hit level": "h,m,m,m,m",
-        "Notes": "",
-        "Start up frame": "12s"
+        "Counter hit frame": "-2~+4s",
+        "Notes": "-"
+    },
+    {
+        "Command": "RDS 3",
+        "Hit level": "m (TJ)",
+        "Damage": "25",
+        "Start up frame": "18~19b js9~",
+        "Block frame": "-14~-13",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Wall bounce"
     },
     {
         "Alias": [
@@ -1552,6 +1680,10 @@
         "Start up frame": "12(42)"
     },
     {
+        "Command": "AOP f+4",
+        "Hit level": "l (TC), (Special)",
+        "Damage": "13",
+        "Start up frame": "18~20 cs1~",
         "Block frame": "-7~-5",
         "Command": "AOP f+4",
         "Counter hit frame": "+4~+6",
@@ -1563,6 +1695,10 @@
         "Start up frame": "18~20 cs1~"
     },
     {
+        "Command": "AOP f+4, 4",
+        "Hit level": "l (TC), l (TC)",
+        "Damage": "13,13",
+        "Start up frame": "s cs1~",
         "Block frame": "-6~-4",
         "Command": "AOP f+4,4",
         "Counter hit frame": "+5~+7",
@@ -2416,9 +2552,78 @@
         "Damage": "23",
         "Gif": "https://gfycat.com/CanineTenseAfricanpiedkingfisher.gif",
         "Hit frame": "+8~+11s",
-        "Hit level": "m (TJ)",
-        "Notes": "",
-        "Start up frame": "23~26 js9~"
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "u/f, n+4",
+        "Hit level": "m",
+        "Damage": "25",
+        "Start up frame": "23(30,36) js9~33",
+        "Block frame": "-18(-17)",
+        "Hit frame": "Launch (JG?)",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+1",
+        "Hit level": "m",
+        "Damage": "10",
+        "Start up frame": "13~14",
+        "Block frame": "-4~-3",
+        "Hit frame": "+7~+8",
+        "Counter hit frame": "+7~+8",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+2",
+        "Hit level": "m",
+        "Damage": "17",
+        "Start up frame": "13~15b",
+        "Block frame": "-4~-2",
+        "Hit frame": "+7~+9",
+        "Counter hit frame": "Launch (JG?)",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+3",
+        "Hit level": "m",
+        "Damage": "22",
+        "Start up frame": "22~23",
+        "Block frame": "+3~+4s",
+        "Hit frame": "+6~+7s (KND)",
+        "Counter hit frame": "Launch",
+        "Notes": "-"
+    },
+    {
+        "Command": "WS+4",
+        "Hit level": "m",
+        "Damage": "20",
+        "Start up frame": "11~13",
+        "Block frame": "-10~-8",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+1",
+        "Hit level": "Sm (TC)",
+        "Damage": "5",
+        "Start up frame": "10s cs1~",
+        "Block frame": "-5",
+        "Hit frame": "+6",
+        "Counter hit frame": "+6",
+        "Notes": "-"
+    },
+    {
+        "Command": "FC+d/b or d+2",
+        "Hit level": "Sm (TC)",
+        "Damage": "8",
+        "Start up frame": "11s cs1~",
+        "Block frame": "-4",
+        "Hit frame": "+7",
+        "Counter hit frame": "+7",
+        "Notes": "-"
     },
     {
         "Block frame": "-15~-13",
@@ -2498,10 +2703,10 @@
         "Start up frame": "24~26s cs8~"
     },
     {
-        "Alias": [
-            "RDS d/b+4",
-            "RDS d/f+4"
-        ],
+        "Command": "RDS d/b or d/f+4",
+        "Hit level": "l",
+        "Damage": "0",
+        "Start up frame": "15",
         "Block frame": "+2",
         "Command": "RDS d/b_d/f+4",
         "Counter hit frame": "+12s",

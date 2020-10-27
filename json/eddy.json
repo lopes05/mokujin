@@ -17,9 +17,18 @@
         "Damage": "12,20",
         "Gif": "",
         "Hit frame": "KND",
-        "Hit level": "mm, (RLX)",
-        "Notes": "Tail spin, Rage drive",
-        "Start up frame": "15~17, 49~50a (16~) 2js40~"
+        "Counter hit frame": "KND",
+        "Notes": "Tail spin, Rage art"
+    },
+    {
+        "Command": "1",
+        "Hit level": "h",
+        "Damage": "7",
+        "Start up frame": "10",
+        "Block frame": "+1",
+        "Hit frame": "+8",
+        "Counter hit frame": "+8",
+        "Notes": "-"
     },
     {
         "Block frame": "-4",

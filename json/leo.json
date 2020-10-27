@@ -426,11 +426,11 @@
         "Command": "b+4, 1+2, d",
         "Counter hit frame": "KND",
         "Damage": "15",
-        "Gif": "",
-        "Hit frame": "KND",
-        "Hit level": "m, m",
-        "Notes": "Ends in crouch",
-        "Start up frame": "18"
+        "Start up frame": "18",
+        "Block frame": "-16~-15",
+        "Hit frame": "-3",
+        "Counter hit frame": "-3",
+        "Notes": "Ends in crouch"
     },
     {
         "Block frame": "-13",
@@ -870,11 +870,11 @@
         "Command": "KNK 1, 2",
         "Counter hit frame": "KND",
         "Damage": "12,20",
-        "Gif": "https://gfycat.com/EasygoingAcclaimedAfricanjacana.gif",
-        "Hit frame": "+8~+9",
-        "Hit level": "h, m",
-        "Notes": "Wall bounce",
-        "Start up frame": "18~19"
+        "Start up frame": "18~19",
+        "Block frame": "-9~-8",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Wall bounce"
     },
     {
         "Block frame": "-7~-6",
@@ -903,22 +903,22 @@
         "Command": "KNK 3",
         "Counter hit frame": "Launch (JG?)",
         "Damage": "13",
-        "Gif": null,
-        "Hit frame": "Launch (JG?)",
-        "Hit level": "m (TJ)",
-        "Notes": "",
-        "Start up frame": "20~21a"
+        "Start up frame": "20~21a",
+        "Block frame": "-13~-12",
+        "Hit frame": "Launch",
+        "Counter hit frame": "Launch",
+        "Notes": "-"
     },
     {
         "Block frame": "-12~-10",
         "Command": "KNK 3, 4",
         "Counter hit frame": "Launch (JG?)",
         "Damage": "13,27",
-        "Gif": "https://gfycat.com/ImpassionedPerfumedGreendarnerdragonfly.gif",
-        "Hit frame": "Launch (JG?)",
-        "Hit level": "m (TJ), m",
-        "Notes": "",
-        "Start up frame": "20~21a"
+        "Start up frame": "20~21a",
+        "Block frame": "-12~-10",
+        "Hit frame": "Launch",
+        "Counter hit frame": "Launch",
+        "Notes": "-"
     },
     {
         "Block frame": "-12~-11",
@@ -974,11 +974,11 @@
         "Command": "BOK 1, 2",
         "Counter hit frame": "KND",
         "Damage": "14,20",
-        "Gif": "https://gfycat.com/UntriedCleverGoral.gif",
-        "Hit frame": "KND",
-        "Hit level": "m, m",
-        "Notes": "",
-        "Start up frame": "13(33~) 1~12"
+        "Start up frame": "13(33~) 1~12",
+        "Block frame": "-14~-13",
+        "Hit frame": "KND (JG?)",
+        "Counter hit frame": "KND (JG?)",
+        "Notes": "-"
     },
     {
         "Block frame": "-9~-8",

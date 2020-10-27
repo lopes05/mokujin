@@ -31,9 +31,18 @@
         "Damage": "27,16s",
         "Gif": "",
         "Hit frame": "KND(KND)",
-        "Hit level": "m(TJ),m(TJ),(BAL)(TC)",
-        "Notes": "Rage drive",
-        "Start up frame": "26~33 86~87 (29~) 115~ 214~"
+        "Counter hit frame": "KND(KND)",
+        "Notes": "Rage art"
+    },
+    {
+        "Command": "1",
+        "Hit level": "h",
+        "Damage": "7",
+        "Start up frame": "10",
+        "Block frame": "+1",
+        "Hit frame": "+8",
+        "Counter hit frame": "+8",
+        "Notes": "-"
     },
     {
         "Block frame": "-1",
@@ -934,8 +943,12 @@
         "Start up frame": "js1~"
     },
     {
-        "Block frame": "-0~+5",
-        "Command": "f,f+3+4",
+        "Command": "f, F+3+4",
+        "Hit level": "mm (TJ)",
+        "Damage": "10,20",
+        "Start up frame": "26~28, 35~40 (27~) js16~34",
+        "Block frame": "-0s~+5s",
+        "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Damage": "10,20",
         "Gif": "https://gfycat.com/UnevenUnsightlyCatfish.gif",
@@ -1334,8 +1347,12 @@
         "Start up frame": "16~17 (19~) js14~"
     },
     {
-        "Block frame": "-3~-2",
-        "Command": "f,n,d,d/f+3,2",
+        "Command": "f, n, d, d/f+3, 2",
+        "Hit level": "m (TJ), h (TJ)",
+        "Damage": "14,30",
+        "Start up frame": "js1~",
+        "Block frame": "-3~-2s",
+        "Hit frame": "KND",
         "Counter hit frame": "KND",
         "Damage": "14,30",
         "Gif": "https://gfycat.com/BarrenForkedAmericankestrel.gif",
@@ -1345,6 +1362,10 @@
         "Start up frame": "16~17 (19~) js14~"
     },
     {
+        "Command": "f, n, d, d/f+3, 4",
+        "Hit level": "m (TJ), m (TJ)",
+        "Damage": "14,17",
+        "Start up frame": "js1~",
         "Block frame": "-11",
         "Command": "f,n,d,d/f+3,4",
         "Counter hit frame": "KND",

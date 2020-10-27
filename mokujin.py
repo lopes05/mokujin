@@ -7,6 +7,7 @@ import discord
 from discord.ext import commands
 
 import tkfinder
+import config
 
 prefix = '§'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927'
@@ -110,7 +111,7 @@ async def on_message(message):
     if I'm going to change it.
     '''
     channel = message.channel
-    if message.content.startswith('!') and (channel.name == 'tekken' or channel.name == 'raamikysely' or channel.name == 'tekken-frames'):
+    if message.content.startswith('!') and ((isinstance(channel, discord.channel.DMChannel)) or (channel.name in config.CHANNELS)):
 
         user_message = message.content
         user_message = user_message.replace('!', '')
@@ -122,44 +123,11 @@ async def on_message(message):
 
         chara_name = user_message_list[0].lower()
         chara_move = user_message_list[1]
-        if chara_name == 'armor' or chara_name == 'ak':
-            chara_name = 'armor_king'
-        elif chara_name == 'dj' or chara_name == 'dvj' or chara_name == 'djin' or chara_name == 'devil' or chara_name == 'deviljin' or chara_name == 'diablojim' or chara_name == 'taika-jim':
-            chara_name = 'devil_jin'
-        elif chara_name == 'sergei' or chara_name == 'drag' or chara_name == 'dragu':
-            chara_name = 'dragunov'
-        elif chara_name == 'goose':
-            chara_name = 'geese'
-        elif chara_name == 'hwo' or chara_name == 'hwoa':
-            chara_name = 'hwoarang'
-        elif chara_name == 'jack':
-            chara_name = 'jack7'
-        elif chara_name == 'julle':
-            chara_name = 'julia'
-        elif chara_name == 'chloe' or chara_name == 'lc' or chara_name == 'lucky':
-            chara_name = 'lucky_chloe'
-        elif chara_name == 'hei' or chara_name == 'hessu' or chara_name == 'heiska':
-            chara_name = 'heihachi'
-        elif chara_name == 'kata' or chara_name == 'kat':
-            chara_name = 'katarina'
-        elif chara_name == 'kaz' or chara_name == 'kazze':
-            chara_name = 'kazuya'
-        elif chara_name == 'karhu' or chara_name == 'panda':
-            chara_name = 'kuma'
-        elif chara_name == 'mara':
-            chara_name = 'marduk'
-        elif chara_name == 'master' or chara_name == 'raven' or chara_name == 'mraven' or chara_name == 'masterraven':
-            chara_name = 'master_raven'
-        elif chara_name == 'nocto':
-            chara_name = 'noctis'
-        elif chara_name == 'pave':
-            chara_name = 'paul'
-        elif chara_name == 'sha':
-            chara_name = 'shaheen'
-        elif chara_name == 'yoshi':
-            chara_name = 'yoshimitsu'
-        elif chara_name == 'ling':
-           chara_name = 'xiaoyu'
+
+        # iterate through character aliases in config for matching value
+        chara_alias = list(filter(lambda x: (chara_name in x['alias']), config.CHARACTER_NAMES))
+        if chara_alias:
+            chara_name = chara_alias[0]['name']
 
         character = tkfinder.get_character(chara_name)
         if chara_move.lower() == 'sidestep':

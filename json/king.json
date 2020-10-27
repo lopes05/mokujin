@@ -17,9 +17,18 @@
         "Damage": "24",
         "Gif": "",
         "Hit frame": "KND",
-        "Hit level": "m",
-        "Notes": "Rage drive",
-        "Start up frame": "20~21"
+        "Counter hit frame": "KND",
+        "Notes": "Rage art"
+    },
+    {
+        "Command": "1",
+        "Hit level": "h",
+        "Damage": "7",
+        "Start up frame": "10",
+        "Block frame": "+1",
+        "Hit frame": "+8",
+        "Counter hit frame": "+8",
+        "Notes": "-"
     },
     {
         "Block frame": "-1",

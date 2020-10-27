@@ -21,9 +21,18 @@
         "Damage": "30",
         "Gif": "",
         "Hit frame": "KND",
-        "Hit level": "m",
-        "Notes": "Rage Drive",
-        "Start up frame": "18~19"
+        "Counter hit frame": "KND",
+        "Notes": "Rage art"
+    },
+    {
+        "Command": "1",
+        "Hit level": "h",
+        "Damage": "7",
+        "Start up frame": "10",
+        "Block frame": "+1",
+        "Hit frame": "+8",
+        "Counter hit frame": "+8",
+        "Notes": "-"
     },
     {
         "Block frame": "-2",
@@ -84,23 +93,13 @@
         "Block frame": "-7",
         "Command": "1,4,2",
         "Counter hit frame": "CS",
-        "Damage": "7,14,18",
-        "Gif": null,
-        "Hit frame": "+4",
-        "Hit level": "h,h,h",
-        "Notes": "",
-        "Start up frame": "10"
+        "Notes": "Rage art, Rage art"
     },
     {
         "Block frame": "0",
         "Command": "1,4,2,1",
         "Counter hit frame": "CS",
-        "Damage": "7,14,18,17",
-        "Gif": null,
-        "Hit frame": "CS",
-        "Hit level": "h,h,h,h",
-        "Notes": "",
-        "Start up frame": "10"
+        "Notes": "Rage art, Rage art"
     },
     {
         "Block frame": "-9",
@@ -883,6 +882,10 @@
         "Start up frame": "15"
     },
     {
+        "Command": "u/b+1+2, 1, 2, 1, 2, 1",
+        "Hit level": "mm, m, m, m, m, m",
+        "Damage": "5,2,2,2,2,2,2",
+        "Start up frame": "15",
         "Block frame": "-13",
         "Command": "u/b+1+2,1,2,1,2,1",
         "Counter hit frame": "-3",
@@ -894,6 +897,10 @@
         "Start up frame": "15"
     },
     {
+        "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2",
+        "Hit level": "mm, m, m, m, m, m, m",
+        "Damage": "5,2,2,2,2,2,2,2",
+        "Start up frame": "15",
         "Block frame": "-16",
         "Command": "u/b+1+2,1,2,1,2,1,2",
         "Counter hit frame": "-6",
@@ -905,6 +912,10 @@
         "Start up frame": "15"
     },
     {
+        "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1",
+        "Hit level": "mm, m, m, m, m, m, m, m",
+        "Damage": "5,2,2,2,2,2,2,2,2,2",
+        "Start up frame": "15",
         "Block frame": "-13",
         "Command": "u/b+1+2,1,2,1,2,1,2,1",
         "Counter hit frame": "-3",
@@ -916,6 +927,10 @@
         "Start up frame": "15"
     },
     {
+        "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1, 2",
+        "Hit level": "mm, m, m, m, m, m, m, m, m",
+        "Damage": "5,2,2,2,2,2,2,2,2,2",
+        "Start up frame": "15",
         "Block frame": "-16",
         "Command": "u/b+1+2,1,2,1,2,1,2,1,2",
         "Counter hit frame": "-6",
@@ -927,6 +942,10 @@
         "Start up frame": "15"
     },
     {
+        "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1, 2, 1",
+        "Hit level": "mm, m, m, m, m, m, m, m, m, m",
+        "Damage": "5,2,2,2,2,2,2,2,2,2,2",
+        "Start up frame": "15",
         "Block frame": "-32",
         "Command": "u/b+1+2,1,2,1,2,1,2,1,2,1",
         "Counter hit frame": "-15",
@@ -938,6 +957,10 @@
         "Start up frame": "15"
     },
     {
+        "Command": "u/b+1+2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 4",
+        "Hit level": "mm, m, m, m, m, m, m, m, m, m, m",
+        "Damage": "5,2,2,2,2,2,2,2,2,2,2,14",
+        "Start up frame": "15",
         "Block frame": "-35",
         "Command": "u/b+1+2,1,2,1,2,1,2,1,2 1,4",
         "Counter hit frame": "KND",
@@ -1400,6 +1423,10 @@
         "Start up frame": "15"
     },
     {
+        "Command": "After TNT f+2, 1, 4, 2, 1, 4",
+        "Hit level": "m, m, m, h, h, m (TJ)",
+        "Damage": "10,12,16,5,5,10",
+        "Start up frame": "js16~",
         "Block frame": "-136~-137",
         "Command": "After TNT f+2,1,4,2,1,4",
         "Counter hit frame": "KND",
@@ -1411,6 +1438,10 @@
         "Start up frame": "js16~"
     },
     {
+        "Command": "After TNT f+2, 1, 4, 2, 1, 4, 2",
+        "Hit level": "m, m, m, h, h, m (TJ), h",
+        "Damage": "10,12,16,5,5,10,28",
+        "Start up frame": "16~",
         "Block frame": "+4",
         "Command": "After TNT f+2,1,4,2,1,4,2",
         "Counter hit frame": "KND",

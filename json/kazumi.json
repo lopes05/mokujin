@@ -17,9 +17,18 @@
         "Damage": "17,20",
         "Gif": "",
         "Hit frame": "Launch",
-        "Hit level": "m(, Sm)",
-        "Notes": "Rage drive",
-        "Start up frame": "13(14~) ,35~"
+        "Counter hit frame": "Launch",
+        "Notes": "Rage art"
+    },
+    {
+        "Command": "1",
+        "Hit level": "h",
+        "Damage": "7",
+        "Start up frame": "10",
+        "Block frame": "+1",
+        "Hit frame": "+8",
+        "Counter hit frame": "+8",
+        "Notes": "-"
     },
     {
         "Block frame": "-3~-2",
@@ -124,9 +133,8 @@
         "Damage": "3,7(,20)",
         "Gif": "https://gfycat.com/LoneDemandingCopepod.gif",
         "Hit frame": "+9",
-        "Hit level": "mm(, Sm)",
-        "Notes": "",
-        "Start up frame": "12,21~22 (,44)"
+        "Counter hit frame": "+9",
+        "Notes": "-"
     },
     {
         "Block frame": "-44~-12",

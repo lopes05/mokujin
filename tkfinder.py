@@ -69,16 +69,27 @@ def get_by_move_type(character: dict, move_type: str) -> list:
 
 def move_simplifier(move_input):
     '''Removes bells and whistles from the move_input'''
-    
-    short_input = move_input.replace('ff', 'f,f')
-    short_input = short_input.replace(' ', '')
-    short_input = short_input.replace('/', '')
-    short_input = short_input.replace('+', '')
-    
-    #cd works, ewgf doesn't, for some reason
-    if short_input[:2].lower() == 'cd' and short_input[:3].lower() != 'cds':
-        short_input = short_input.lower().replace('cd', 'f,n,d,df')
-    if short_input[:2].lower() == 'wr':
-        short_input = short_input.lower().replace('wr', 'f,f,f')
-    
-    return short_input
+
+    move_replacements = {
+        'fff': 'f,f,f',
+        'ff': 'f,f',
+        'bf': 'b,f',
+        'fb': 'f,b',
+        'ddf': 'd,df',
+        'cd': 'f,n,d,df',
+        'wr': 'f,f,f',
+        'ewgf': 'f,n,d,df+2'
+    }
+
+    # Don't apply the above replacements for any of the moves with the following notation
+    replacements_blacklist = ["cds"]
+
+    for move in move_replacements:
+        if not any([mv in move_input for mv in replacements_blacklist]) and move in move_input:
+            move_input = move_input.replace(move, move_replacements[move])
+
+    move_input = move_input.replace(' ', '')
+    move_input = move_input.replace('/', '')
+    move_input = move_input.replace('+', '')
+
+    return move_input

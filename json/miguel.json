@@ -1025,9 +1025,10 @@
     {
         "Block frame": "-13~-12",
         "Command": "SAV d/b+3, F",
-        "Counter hit frame": "KND",
-        "Damage": "20",
-        "Gif": "https://gfycat.com/NearColdChuckwalla.gif",
+        "Hit level": "l, (SAV)",
+        "Damage": "23",
+        "Start up frame": "19~20 (29~)",
+        "Block frame": "-13~-12",
         "Hit frame": "+4~+5",
         "Hit level": "l, (SAV)",
         "Notes": "",

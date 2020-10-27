@@ -598,15 +598,43 @@
         "Start up frame": "10(25~)"
     },
     {
+        "Command": "MG 2",
+        "Hit level": "m (DS)",
+        "Damage": "25",
+        "Start up frame": "14(29~)",
         "Block frame": "-9",
-        "Command": "EX MG 2",
+        "Hit frame": "KND",
         "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "MG 2, b",
+        "Hit level": "m",
+        "Damage": "25",
+        "Start up frame": "14(29~)",
+        "Block frame": "-9",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "-"
+    },
+    {
+        "Command": "EX MG 2",
+        "Hit level": "m (DS)",
+        "Damage": "25",
+        "Start up frame": "14(29~)",
+        "Block frame": "-9",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Wall bounce"
+    },
+    {
+        "Command": "EX MG 2, b",
+        "Hit level": "m",
         "Damage": "25",
         "Gif": "",
         "Hit frame": "KND",
-        "Hit level": "m (Special) (DS)",
-        "Notes": "Wall bounce (if transitioned)",
-        "Start up frame": "14(29~)"
+        "Counter hit frame": "KND",
+        "Notes": "Wall bounce"
     },
     {
         "Block frame": "-10~-9",

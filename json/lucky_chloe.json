@@ -19,12 +19,7 @@
         "Block frame": "+3~+5s",
         "Command": "in rage d/f+3+4_FC+d/f+3+4_BT+d/f+3+4",
         "Counter hit frame": "Launch",
-        "Damage": "12,12,25",
-        "Gif": "",
-        "Hit frame": "Launch",
-        "Hit level": "mmm",
-        "Notes": "Rage drive",
-        "Start up frame": "17,46, 78~80"
+        "Notes": "Rage art"
     },
     {
         "Block frame": "-4~-2s",
@@ -33,20 +28,29 @@
         "Damage": "12,12,25",
         "Gif": "",
         "Hit frame": "Launch",
-        "Hit level": "m, mm",
-        "Notes": "Rage drive",
-        "Start up frame": "17,46, 78~80b"
+        "Counter hit frame": "Launch",
+        "Notes": "Rage art"
     },
     {
         "Block frame": "-",
         "Command": "in rage d/f+3+4, When hit 1+2",
-        "Counter hit frame": "KND",
-        "Damage": "12,12,25,",
-        "Gif": "",
-        "Hit frame": "KND",
         "Hit level": "mmm, h",
-        "Notes": "Rage drive",
-        "Start up frame": "17,46, 78~80"
+        "Damage": "12,12,25,62(74)",
+        "Start up frame": "17,46, 78~80",
+        "Block frame": "-",
+        "Hit frame": "KND",
+        "Counter hit frame": "KND",
+        "Notes": "Rage art"
+    },
+    {
+        "Command": "1 or BT 1 or 2",
+        "Hit level": "h",
+        "Damage": "7(12)",
+        "Start up frame": "10",
+        "Block frame": "+1",
+        "Hit frame": "+8",
+        "Counter hit frame": "+8",
+        "Notes": "-"
     },
     {
         "Block frame": "-4",
@@ -66,9 +70,8 @@
         "Damage": "7,12,20",
         "Gif": "",
         "Hit frame": "KND",
-        "Hit level": "h, m, m",
-        "Notes": "Wall Bounce",
-        "Start up frame": "10"
+        "Counter hit frame": "KND",
+        "Notes": "Wall Bound"
     },
     {
         "Block frame": "-4~-3",
@@ -196,7 +199,8 @@
         "Command": "f+4, b",
         "Counter hit frame": "+9s",
         "Damage": "14",
-        "Gif": "",
+        "Start up frame": "27b~js9,10,13~",
+        "Block frame": "-4",
         "Hit frame": "+9s",
         "Hit level": "m (TJ)",
         "Notes": "",
@@ -369,6 +373,10 @@
         "Start up frame": " 1~ 1~,a"
     },
     {
+        "Command": "d+3+4:d+3+4, F, 3+4",
+        "Hit level": "lll, hml, (Special), m (TJ)",
+        "Damage": "10,5,5,7,7,7,30",
+        "Start up frame": "js1~",
         "Block frame": "-8~-4",
         "Command": "d+3+4:d+3+4, F, 3+4",
         "Counter hit frame": "KND",
@@ -888,7 +896,8 @@
         "Command": "BT f+3+4, 3+4",
         "Counter hit frame": "CS",
         "Damage": "17,20",
-        "Gif": "https://gfycat.com/WhisperedInsecureDanishswedishfarmdog.gif",
+        "Start up frame": "24,37~ar1~",
+        "Block frame": "-45",
         "Hit frame": "CS",
         "Hit level": "(Special), mm, (Special)",
         "Notes": "",

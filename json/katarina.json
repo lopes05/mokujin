@@ -17,9 +17,18 @@
         "Damage": "35,5,15",
         "Gif": "",
         "Hit frame": "Throw(KND)",
-        "Hit level": "m (TJ)(, (throw))",
-        "Notes": "Rage drive",
-        "Start up frame": "15~16 (30~)"
+        "Counter hit frame": "Throw(KND)",
+        "Notes": "Rage art"
+    },
+    {
+        "Command": "1",
+        "Hit level": "h",
+        "Damage": "7",
+        "Start up frame": "10",
+        "Block frame": "+1",
+        "Hit frame": "+8",
+        "Counter hit frame": "+8",
+        "Notes": "-"
     },
     {
         "Block frame": "-2~-1",
@@ -538,9 +547,10 @@
     {
         "Block frame": "-9",
         "Command": "u/f+4, 4, 4, 4, 4, 4",
-        "Counter hit frame": "KND",
-        "Damage": "10,10,10,10,21,",
-        "Gif": "https://gfycat.com/WeakWavyIberianemeraldlizard.gif",
+        "Hit level": "m, m, m (TJ), h, h, m",
+        "Damage": "10,10,10,10,21,25",
+        "Start up frame": "1~21",
+        "Block frame": "-9",
         "Hit frame": "KND",
         "Hit level": "m, m, m (TJ), h, h, m",
         "Notes": "Wall bounce",
@@ -734,7 +744,26 @@
         "Start up frame": "15~16a (30~) ar15~"
     },
     {
-        "Block frame": "-9~-8s",
+        "Command": "HAR d/f+2",
+        "Hit level": "m",
+        "Damage": "13",
+        "Start up frame": "16",
+        "Block frame": "-13",
+        "Hit frame": "-2",
+        "Counter hit frame": "-2",
+        "Notes": "-"
+    },
+    {
+        "Command": "HAR d/f+2, 3",
+        "Hit level": "m, h",
+        "Damage": "13,18",
+        "Start up frame": "16",
+        "Block frame": "-3",
+        "Hit frame": "+14k",
+        "Counter hit frame": "+14k",
+        "Notes": "Tail spin"
+    },
+    {
         "Command": "HAR u/f+3",
         "Counter hit frame": "Launch",
         "Damage": "20",
