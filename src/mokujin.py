@@ -14,7 +14,7 @@ from github import Github
 
 base_path = os.path.dirname(__file__)
 config = configurator.Configurator(os.path.abspath(os.path.join(base_path, "resources", "config.json")))
-prefix = '§'
+prefix = '#'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927, continued by Tib#1303'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
